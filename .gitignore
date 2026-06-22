@@ -1,0 +1,10 @@
+.godot/
+.import/
+build/
+exports/
+*.tmp
+*.translation
+*.blend1
+.DS_Store
+assets/scans/source/
+assets/scans/reduced/*.import

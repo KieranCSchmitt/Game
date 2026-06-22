@@ -1,0 +1,19 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/name="Crown & Cinder"
+config/description="Peer-hosted 3D dark-fantasy strategy board game."
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/mode=2
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="forward_plus"
+environment/defaults/default_clear_color=Color(0.018, 0.017, 0.016, 1)
